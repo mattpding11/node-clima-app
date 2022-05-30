@@ -1,9 +1,15 @@
-# Aplicación de línea de comandos con Node JS, consume endpoints de [mapbox](https://www.mapbox.com/) y [OpenWeatherMap](https://openweathermap.org/)
+# Aplicación de línea de comandos con Node JS, consume endpoints de mapbox y openweathermap
 
 Como usar la aplicación:
 -	Dirígete a la ruta de la carpeta desde la línea de comandos y ejecute `npm install` para descargar las dependencias de node.
 -	Luego ejecutar el comando `npm start`
+-	Cree un archivo .env dentro de la raiz del proyecto y agregue las siguientes variables de entorno:
 
+MAPBOX_KEY=pk.eyJ1IjoibWF0ZW8xMWpyIiwiYSI6ImNrbWR1b2dnZTBwanYycGtoc3Nud3F3bXIifQ.wNQ9yfngZ0xWETraNdijAg
+
+OPENWEATHER_KEY=e8566b94b85583472a3901c1938cdb27
+
+---
 
 Esta solución permite que el usuario busque una** ciudad, pueblo, o cualquier otro lugar** y entonces te va a mostrar varias opciones de ubicación en el menú de las cual escogerás una
 
